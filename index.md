@@ -1,6 +1,6 @@
 # Bricz Cruz
 
-Canadian Citizen | (204)962-8406 | briczcruz@gmail.com | [linkedin.com/in/bricz](https://linkedin.com/in/bricz) | [github.com/br-cz](https://github.com/br-cz)
+Canadian Citizen | (204) 962-8406 | briczcruz@gmail.com | [LinkedIn](https://linkedin.com/in/bricz) | [Github](https://github.com/br-cz)
 
 ## Education
 
