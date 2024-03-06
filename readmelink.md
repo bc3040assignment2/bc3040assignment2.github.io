@@ -1,7 +1,3 @@
-layout: page
-title: README
-permalink: /read-me
-
 # Hosting Your Resume on GitHub Pages: A Step-by-Step Guide for Beginners
 
 ## Purpose
