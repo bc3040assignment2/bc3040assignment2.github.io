@@ -1,1 +1,1 @@
-[View my README](README.md)
+[View my README](README)
