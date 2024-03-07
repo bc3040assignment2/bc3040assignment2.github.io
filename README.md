@@ -26,14 +26,14 @@ This guide shows the steps on how to host and format a Markdown resume on GitHub
 
 #### Cloning Your Repository
 
-1. Copy the repository's link to your clipboard by clicking the `Code` button within your repository and then clicking on the two boxes layered over one another.
+5. Copy the repository's link to your clipboard by clicking the `Code` button within your repository and then clicking on the two boxes layered over one another.
    ![Copying the repository URL link](graphics/gitclonebutton.png)
-2. Open your terminal.
+6. Open your terminal.
    - As an example for macOS:
      - Press the `command⌘` and `space bar` keys at the same time. This will open Spotlight Search.
      - Type "terminal".
      - Press enter or click the application.
-3. Clone your repository to your computer by typing the `git clone` command followed by your repository's URL. This will create a new folder in your computer that mimics the GitHub repository.
+7. Clone your repository to your computer by typing the `git clone` command followed by your repository's URL. This will create a new folder in your computer that mimics the GitHub repository.
    ![Git clone in command line](graphics/gitclonecmd.png)
 
 **Note**: Cloning is a concept within Git that facilitates distributed version control. The concept allows a new edited version of the document to be created and later shared as the main source of truth containing the current state of the document. This exemplifies the use of a distributed version control system as advocated by Etter.
@@ -66,19 +66,19 @@ This guide shows the steps on how to host and format a Markdown resume on GitHub
 
 #### Viewing Your Resume Online
 
-13. Navigate to your github repository.
+14. Navigate to your github repository.
     - A simple way to do this is to open your preferred web browser and go to the link `https://github.com/yourusername/yourusername.github.io/`
-14. Click on the `Actions` tab to see if the resume has been generated and is online.
+15. Click on the `Actions` tab to see if the resume has been generated and is online.
     - If the workflow similar shown to the one below shows a green checkmark, the resume is now online.
     - ![GitHub Pages Resume Deployed](graphics/deployed.png)
     - Your resume is now live at `https://yourusername.github.io`.
 
 **Note**: Implicitly deploying through GitHub Pages' built in site hosting by following all the previous steps exemplifies Etter's recommendation of using static site generator to present a document.
 
-### Formatting Your Resume
+#### Formatting Your Resume
 
-15. Create a file inside the `yourusername.github.io` folder called `_config.yml`.
-16. Copy and paste the following Jekyll formatting instructions inside the file:
+16. Create a file inside the `yourusername.github.io` folder called `_config.yml`.
+17. Copy and paste the following Jekyll formatting instructions inside the file:
 
 ```
 remote_theme: pages-themes/minimal@v0.2.0
@@ -86,7 +86,7 @@ plugins:
   - jekyll-remote-theme
 ```
 
-17. Use Git to apply a minimal formatting to your resume, which can be seen at the same previous site `https://yourusername.github.io`. This can be done by typing and entering the following commands sequentially:
+18. Use Git to apply a minimal formatting to your resume, which can be seen at the same previous site `https://yourusername.github.io`. This can be done by typing and entering the following commands sequentially:
     - `git add _config.yml`
     - `git commit -m "Add formatting to my resume"`
     - `git push`
