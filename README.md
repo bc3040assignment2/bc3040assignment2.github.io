@@ -93,7 +93,7 @@ plugins:
     - `git commit -m "Add formatting to my resume"`
     - `git push`
 
-**Note**: Formatting the deployed resume through GitHub Pages' built in synergy with Jekyll by following the previous step exemplifies Etter's recommendation of formatting a document with a static site generator.
+**Note**: Formatting the deployed resume through GitHub Pages' built-in compatibility with Jekyll by following the previous step exemplifies Etter's recommendation of formatting a document with a static site generator.
 
 #### Example Resume Deployed Online
 
