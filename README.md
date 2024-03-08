@@ -68,7 +68,7 @@ This guide shows the steps on how to host and format a Markdown resume on GitHub
 
 #### Viewing Your Resume Online
 
-14. Navigate to your github repository.
+14. Navigate to your GitHub repository.
     - A simple way to do this is to open your preferred web browser and go to the link `https://github.com/yourusername/yourusername.github.io/`
 15. Click on the `Actions` tab to see if the resume has been generated and is online.
     - If the workflow similar shown to the one below shows a green checkmark, the resume is now online.
