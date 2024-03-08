@@ -50,14 +50,14 @@ This guide shows the steps on how to host and format a Markdown resume on GitHub
 9. Open the newly created folder that is now titled `yourusername.github.io`.
    - As an example for macOS:
      - Press the `File` button located on the top right hand of the application. This will open your file system.
-     - ![Open Folder VSCode](graphics/openfolder.png)
+       ![Open Folder VSCode](graphics/openfolder.png)
      - Navigate to and click the folder `yourusername.github.io`.
 10. Ensure your Markdown-formatted resume is named `index.md`.
 11. Place the resume in the cloned repository folder on your computer.
 12. Navigate to the `yourusername.github.io` folder in the terminal.
     - As an example for Visual Studio Code in macOS:
       - Press the `Terminal` button located on the top right hand of the application. This will open the terminal conveniently situated within your current folder.
-      - ![VSCode Terminal](graphics/terminal.png)
+        ![VSCode Terminal](graphics/terminal.png)
 13. Use Git to upload your resume on GitHub. This can be done by typing and entering the following commands sequentially in the terminal:
 
     - `git add index.md`
@@ -72,7 +72,7 @@ This guide shows the steps on how to host and format a Markdown resume on GitHub
     - A simple way to do this is to open your preferred web browser and go to the link `https://github.com/yourusername/yourusername.github.io/`
 15. Click on the `Actions` tab to see if the resume has been generated and is online.
     - If the workflow similar shown to the one below shows a green checkmark, the resume is now online.
-    - ![GitHub Pages Resume Deployed](graphics/deployed.png)
+      ![GitHub Pages Resume Deployed](graphics/deployed.png)
     - Your resume is now live at `https://yourusername.github.io`.
 
 **Note**: Implicitly deploying through GitHub Pages' built in site hosting by following all the previous steps exemplifies Etter's recommendation of using static site generator to present a document.
