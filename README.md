@@ -17,7 +17,9 @@ This guide shows the steps on how to host and format a Markdown resume on GitHub
 
 1. Log into your GitHub account.
 2. Click the `New` button to create a new repository. A repository is essentially a directory in GitHub.
+
    ![New repo button](graphics/newrepo.png)
+
 3. Name the repository `yourusername.github.io`, replacing `yourusername` with your actual GitHub username.
 4. Create the repository with a README file by clicking on the checkbox labeled `Add a README file` and then clicking `Create repository`.
    ![Creating a new repo](graphics/createnewrepo.png)
